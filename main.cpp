@@ -24,3 +24,19 @@ int main(){
     }
     
 }
+#include <iostream>
+using namespace std;
+
+// Function to print array elements
+void print(int arr[],int size){
+    // Loop through the array and print each element
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
+int main(){
+    int arr[]= {10,20,30,40,50};// Initializing an array
+    int size = 5;// Defining the size of the array
+    print(arr,size);// Calling the print function to display array elements
+}
